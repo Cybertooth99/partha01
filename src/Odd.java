@@ -1,17 +1,17 @@
-public class Odd {
-    public Odd(int num)
+public class Odd extends Hello {
+    public boolean isOdd(int num)
     {
         if((num%2)==0)
         {
-            System.out.println("even");
+            return true;
         }
         else
         {
-            System.out.println("odd");
+            return false;
         }
     }
-    public static void main(String[] args)
-    {
-        Odd odd = new Odd(57);
-    }
+//    public static void main(String[] args)
+//    {
+//        Odd odd = new Odd(57);
+//    }
 }
